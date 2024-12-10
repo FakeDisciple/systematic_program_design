@@ -108,4 +108,10 @@ My notes, workings and coursework for [EDX course Systematic Program Design.](ht
   - As you learning create error. 
   - Rework the lecture problem on your own. 
     - First try without the lecture notes or videos, if you don't understand view notes first then watch the lecture videos again.
-  - Do t  
+  - Do the practice problems, maybe use chatgpt to create more practice problems to reinforce course material.
+- Read the error messages understand the error messages. 
+- Try, to understand how to understand what you're doing if you're unsure.
+- Early material may seem slow it isn't; it takes time to innternalise and understand what you're learning.
+- When writing notes focus onn the design process rather than the end.
+- Put your self in a position to understand what position of recipe design you are in.
+- 
