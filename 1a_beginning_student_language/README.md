@@ -42,7 +42,7 @@ Led to output in the interaction area:
 ```
 More Complicated expression example input:
 ```racket
-(+3 (* 2 3))
+(+ 3 (* 2 3))
 ```
 Output:
 ```
