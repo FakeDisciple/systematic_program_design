@@ -112,11 +112,12 @@ In BSL operations work:
 - **Image:** primitive data that represents images. 
 Strings represent words and names.
 Images let us build pictures.
+### Basics of strings
 A string is denoted with ```"..."``` the ```...``` can be any sequence of symbols. 
 Example strings:
   - ```"apple"```
   - ```"ada"```
-```string-append``` can be used to append strings together. 
+```string-append``` primitive can be used to append strings together. 
 For example:
 ```racket
 (string-append "Ada " "Lovelace")
@@ -126,11 +127,27 @@ Will output not two strings but
 "Ada Lovelace"
 ```
 A string of numbers is not like a number therefor ```"123"``` != ```123```.
-```string-length``` prints the number of characters in a string for example:
+```string-length``` primitive prints the number of characters in a string for example:
 ```racket
 (string-length "apple")
 ```
 will output ```5```.
+
+```substring``` primitive takes out part of a string for example:
+```racket
+(substring "Caribou" 2 4)
+```
+will take out all string but ```"ri"``` and output that.
+I didn't do string because computer scientists used zero-based indexing. Which mean it goes right up to 4th character in the string but does not include that. 
+### Basics of images
+```(require 2htdp/image)``` goes on top of a file. Which means this program required the image function from second edition from How to Design Programs books.
+```(circle 10 "solid" "red")``` denotes a to draw a circle with a radius of 10 either be solid or outline and red is the colour. 
+There are many more shapes like rectangle which require width and height. 
+To produce text as images use ```(text "text" 24 "red")``` the text with quotation with the word text is where the text is the 24 is the pixel count red is the colour.
+```(bw)```stacks the images atop each other. 
+```(beside)``` draws the images next to each other.
+```(overlay)``` stacks the images ontop of each other.
+
 ## Constant Definitions
 ## Function Definitions
 ## Booleans and if Expressions
