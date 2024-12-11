@@ -107,7 +107,30 @@ In BSL operations work:
    - left to right
    - inside to outside
 ## Strings and Images
-
+### Terms Learned:
+- **String:** primitive data that is of consists of symbols strung together.
+- **Image:** primitive data that represents images. 
+Strings represent words and names.
+Images let us build pictures.
+A string is denoted with ```"..."``` the ```...``` can be any sequence of symbols. 
+Example strings:
+  - ```"apple"```
+  - ```"ada"```
+```string-append``` can be used to append strings together. 
+For example:
+```racket
+(string-append "Ada " "Lovelace")
+```
+Will output not two strings but 
+```
+"Ada Lovelace"
+```
+A string of numbers is not like a number therefor ```"123"``` != ```123```.
+```string-length``` prints the number of characters in a string for example:
+```racket
+(string-length "apple")
+```
+will output ```5```.
 ## Constant Definitions
 ## Function Definitions
 ## Booleans and if Expressions
