@@ -114,4 +114,3 @@ My notes, workings and coursework for [EDX course Systematic Program Design.](ht
 - Early material may seem slow it isn't; it takes time to innternalise and understand what you're learning.
 - When writing notes focus onn the design process rather than the end.
 - Put your self in a position to understand what position of recipe design you are in.
-- 

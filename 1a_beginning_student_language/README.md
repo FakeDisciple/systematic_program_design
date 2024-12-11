@@ -93,7 +93,21 @@ The i means it is an inexact number and the following number means it pretty clo
 
 ## Evaluations
 To understand big programs, we need to understand the detailed rules by which expressions get evaluated. We don't need to think of the rules but we can fall back on them.
+```(...)``` is called a primitive.
+```(+)``` the plus sing is called a operator
+```(+ 3 4)``` is called the operand for example ```(+ 2 (* 3 4) (- (+ 1 2) 3))``` the ```(* 3 4)``` is called operand but can be broken down into operator and operands.
+To evaluate a primitive calls:
+1. Reduce operands to values
+    - in the example ```(+ 2 (* 3 4) (- (+ 1 2) 3))``` can be grouped to operator ```+```
+    - operands: ```(2, (* 3 4), (- (+ 1 2) 3))```
+2. Apply primitives to values
+   - From the example above can be ```(+ 2 12 0)```
+  This will lead to ```14```
+In BSL operations work:
+   - left to right
+   - inside to outside
 ## Strings and Images
+
 ## Constant Definitions
 ## Function Definitions
 ## Booleans and if Expressions
